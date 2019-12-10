@@ -139,7 +139,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     var flag = 0;
-    $("#staff-details").hover(function () {
+    $("#about-staff-details").hover(function () {
         if (flag == 0) {
             $('#inner-staff-details').css('display', 'block');
             flag = 1;
